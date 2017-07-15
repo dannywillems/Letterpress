@@ -3,16 +3,16 @@
     <title>{{site_title}}</title>
     <description>{{site_description}}</description>
     <link>{{site_link}}</link>
-		{{#items}}
+    {{#items}}
     <item>
       <title>{{title}}</title>
       <description><![CDATA[
-			{{content}}
+      {{content}}
       ]]></description>
       <pubDate>{{date}}</pubDate>
       <guid isPermaLink="true">{{permalink}}</guid>
       <link>{{permalink}}</link>
     </item>
-		{{/items}}
+    {{/items}}
   </channel>
 </rss>
